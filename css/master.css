@@ -120,12 +120,12 @@ h2{
 
 .head-pacchetto{
     text-align: center;
-    border: solid 1px black;
+    border: solid 1px rgba(130, 130, 130, 0.5);
 }
 
 .col-text{
     padding: 30px 20px;
-    border: solid 1px black;
+    border: solid 1px rgba(130, 130, 130, 0.5);
 
 }
 
