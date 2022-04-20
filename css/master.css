@@ -42,8 +42,9 @@ a{
 
 .section{
     padding: 35px;
-    background-color: #c0e7fe;
+    background-color: #96c8e4;
     width: 100%;
+    min-width: max-content;
 }
 
 .container{
