@@ -138,7 +138,10 @@ h2{
     padding-bottom: 190px;
 }
 
-
+.col-text.large-col{
+    padding: 10px;
+    display: flex;
+}
 h3{
     padding-bottom: 25px;
     font-size: 25px;
@@ -222,4 +225,100 @@ hr{
     width: 504px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.section4{
+    padding: 40px 238px;
+    width: 100%;
+    min-width: max-content;
+    background-color: #95c8e4;
+    max-height: 270px;
+    margin-top: 8px;
+}
+.under-square{
+    display: flex;
+    padding: 0;
+    border: none;
+}
+
+.col-contattaci.noborder{
+    width: 360px;
+
+}
+.small-botton-blue.botton-white{
+    background-color: #ffffff;
+    padding: 10px 7px;
+    color: #000000;
+    max-width: 185px;
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 185px;
+}
+
+h2.bordeaux{
+    color: #620129
+}
+
+.section5{
+    padding: 40px 238px;
+    width: 100%;
+    min-width: max-content;
+    background-color: #ffffff;
+    max-height: max-content;
+}
+
+.col-text.under-square.answer{
+    display: block;
+}
+
+hr.answer-lines{
+    width: auto;
+}
+
+.col-text.col-text-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    line-height: 35px;
+    border: none;
+}
+
+.container-young.container-footer{
+    max-width: 1000px;
+    margin: 0px 100px;
+}
+
+.flex-container.flex-footer{
+    display: flex;
+    gap: 60px;
+
+}
+
+.section6{
+    background-color: black;
+    padding: 180px;
+    width: 100%;
+    min-width: max-content;
+    padding-bottom: 0px;
+    color: white;
+    padding-top: 30px;
+}
+
+.section6 a{
+    color:white
+}
+
+.fa-solid.fa-angle-down.fa-float{
+    float:right;
+}
+
+.lenguages{
+    padding-left: 115px;
+    padding-bottom: 35px;
+}
+
+.convert-lenguages{
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
 }
