@@ -41,7 +41,7 @@ a{
 }
 
 .section{
-    padding: 200px;
+    padding: 195px;
     background-color: #96c8e4;
     width: 100%;
     min-width: max-content;
@@ -82,13 +82,16 @@ p{
     font-size: 35px;
 }
 
+i{
+    padding-right: 10px;
+}
 .col2{
     width: calc(100% - 290px/ 1);
     float: right;
 }
 
 .section1{
-    padding: 280px;
+    padding: 238px;
     width: 100%;
     min-width: max-content;
     padding-bottom: 0px;
@@ -96,7 +99,7 @@ p{
 
 .container-young{
     width: 100%;
-    max-width: 750px;
+    max-width: 817px;
     min-width: 300px;
     margin: 0 auto;
     padding: 0em 1em;
@@ -131,6 +134,11 @@ h2{
 
 }
 
+.col-text.space-button{
+    padding-bottom: 190px;
+}
+
+
 h3{
     padding-bottom: 25px;
     font-size: 25px;
@@ -143,6 +151,7 @@ ul{
 
 li{
     padding-bottom: 10px;
+    display: flex;
 }
 
 hr{
