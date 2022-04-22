@@ -2,7 +2,9 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
+
 
 header{
     position: fixed;
@@ -34,9 +36,9 @@ a{
 
 .small-botton-blue{
     background-color: #0160ff;
-    padding: 5px 7px;
+    padding: 3px 4px;
     color: white;
-    max-width: 185px;
+    max-width: 190px;
     margin-bottom: 25px;
 }
 
@@ -45,7 +47,7 @@ a{
     background-color: #96c8e4;
     width: 100%;
     min-width: max-content;
-    max-height: 620px;
+    max-height: 655px;
 }
 
 .container{
@@ -90,8 +92,11 @@ i{
     float: right;
 }
 
+.img-jumbo{
+    max-width: 650px;
+}
 .section1{
-    padding: 238px;
+    padding: 255px;
     width: 100%;
     min-width: max-content;
     padding-bottom: 0px;
@@ -102,7 +107,6 @@ i{
     max-width: 817px;
     min-width: 300px;
     margin: 0 auto;
-    padding: 0em 1em;
     min-height: 400px;
 }
 
@@ -135,13 +139,19 @@ h2{
 }
 
 .col-text.space-button{
-    padding-bottom: 190px;
+    padding-bottom: 196px;
 }
 
 .col-text.large-col{
     padding: 10px;
     display: flex;
 }
+
+.botton-large-col{
+    display: inline-block; 
+    width: 188px;
+}
+
 h3{
     padding-bottom: 25px;
     font-size: 25px;
@@ -157,10 +167,18 @@ li{
     display: flex;
 }
 
+.lines-space-botton{
+    padding-bottom: 30px;
+}
+
 hr{
     margin-block-start: 40px;
     margin-block-end: 40px;
     width: 40px;
+}
+
+.col-text.space-botton2{
+    padding-bottom: 148px;
 }
 
 .col-large{
@@ -233,7 +251,7 @@ hr{
     min-width: max-content;
     background-color: #95c8e4;
     max-height: 270px;
-    margin-top: 8px;
+    margin-top: 7px;
 }
 .under-square{
     display: flex;
@@ -242,17 +260,18 @@ hr{
 }
 
 .col-contattaci.noborder{
-    width: 360px;
+    width: 540px;
+    padding-left: 170px;
 
 }
 .small-botton-blue.botton-white{
     background-color: #ffffff;
     padding: 10px 7px;
     color: #000000;
-    max-width: 185px;
+    max-width: 200px;
     margin-bottom: 25px;
     display: inline-block;
-    width: 185px;
+    width: 200px;
 }
 
 h2.bordeaux{
@@ -297,7 +316,7 @@ hr.answer-lines{
 .section6{
     background-color: black;
     padding: 180px;
-    width: 100%;
+    width: 1512px;
     min-width: max-content;
     padding-bottom: 0px;
     color: white;
