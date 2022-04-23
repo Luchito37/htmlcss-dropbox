@@ -27,11 +27,31 @@ header{
     word-spacing: 10px;
 }
 
-a{
+header a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     word-spacing: 0px;
+}
 
+header a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-underline-offset: 17px;
+    color: #035fffc2;
+}
+
+.head-small-botton-blue{
+    background-color: #0160ff;
+    padding: 3px 4px;
+    color: white;
+    max-width: 190px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.head-small-botton-blue:hover{
+    color: #ffffff;
+    text-decoration-color: #0160ff;
 }
 
 .small-botton-blue{
@@ -40,6 +60,15 @@ a{
     color: white;
     max-width: 190px;
     margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.small-botton-blue:hover{
+    background-color: #091753;
+    border: solid 2px #eee;
+    border-radius: 10px;
+    width: 193px;
+    max-width: 200px;
 }
 
 .section{
@@ -138,6 +167,16 @@ h2{
 
 }
 
+a.link-buy{
+    text-decoration: underline; 
+    color: #9d26bc;
+}
+
+a.link-buy:hover{
+    color: #091753;
+
+}
+
 .col-text.space-button{
     padding-bottom: 196px;
 }
@@ -188,7 +227,7 @@ hr{
 }
 
 .col-contattaci{
-    width: 180px;
+    width: 190px;
     display: inline-block;
 }
 
@@ -204,7 +243,15 @@ hr{
     max-width: 185px;
     margin-bottom: 25px;
     display: inline-block;
-    border: solid 1px black
+    border: solid 1px black;
+    text-decoration: none;
+}
+
+.small-botton:hover{
+    background-color: #95c8e4;
+    border: solid 1px #2ba2e2;
+    color: white;
+    border-radius: 15px
 }
 
 .col-text-img{
@@ -274,6 +321,15 @@ hr{
     width: 200px;
 }
 
+.small-botton-blue.botton-white:hover{
+    background-color: #620129;
+    border: solid 1px #eee;
+    color: white;
+    border-radius: 15px;
+}
+
+
+
 h2.bordeaux{
     color: #620129
 }
@@ -340,4 +396,13 @@ hr.answer-lines{
     background-color: #000000;
     border: none;
     color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
 }
