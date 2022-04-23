@@ -346,6 +346,28 @@ h2.bordeaux{
     display: block;
 }
 
+.transition-answer{
+    height: 102px;
+    overflow: hidden;
+}
+
+.fa-solid.fa-angle-down.fa-float{
+    color: #777575c9;
+}
+
+.fa-solid.fa-angle-down.fa-float.transition:hover{
+    color: #0160ff;
+}
+
+.transition-answer:active{
+    overflow: visible;
+    line-height: 26px;
+}
+
+.answer-resp{
+    color: #2ba2e2;
+}
+
 hr.answer-lines{
     width: auto;
 }
